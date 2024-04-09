@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="vehicle_control" type="image_generator.py" name="image_generator" />
+    <node pkg="vehicle_control" type="line_detector.py" name="line_detector"  />
+    <node pkg="vehicle_control" type="traffic_lights.py" name="traffic_lights"  />
+    <node pkg="vehicle_control" type="instructions.py" name="instructions" />
+    <node pkg="vehicle_control" type="controller.py" name="controller"  />
+</launch>
